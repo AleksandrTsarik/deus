@@ -120,5 +120,11 @@ export default {
     font-size: 16px;
     font-weight: 700;
     white-space: nowrap;
+    transition: 0.3s;
+    &:hover {
+      @media(min-width: 1023px) {
+        box-shadow: inset 2px 2px 12px 0px rgba(136, 165, 191, 0.6),inset -2px -3px 6px 0px rgba(136, 165, 191, 0.3),inset -3px -4px 6px 0px rgb(255, 255, 255);
+      }
+    }
   }
 </style>
