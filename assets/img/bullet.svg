@@ -1,0 +1,13 @@
+<svg width="6.998047" height="11.949219" viewBox="0 0 6.99805 11.9492" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<radialGradient gradientTransform="translate(0 7) rotate(-90) scale(7 7)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_angular_8_2569_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#0056FE"/>
+			<stop offset="1.000000" stop-color="#19BFEA"/>
+		</radialGradient>
+	</defs>
+	<path id="Ellipse 182" d="M4.94 11.94L4.94 11.94C6 10.89 6.72 9.5 6.93 7.95C6.97 7.64 6.99 7.32 6.99 7C6.99 5.2 6.31 3.41 4.94 2.05C4.72 1.82 4.48 1.61 4.22 1.42C3.05 0.53 1.58 0 0 0L0 0L0 1.42C1.42 1.42 2.85 1.96 3.94 3.05C4.95 4.06 5.57 5.46 5.57 7C5.57 8.42 5.03 9.85 3.94 10.94L4.94 11.94Z" fill="#EFF1F7" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Ellipse 182" d="M4.94 11.94L4.94 11.94C6 10.89 6.72 9.5 6.93 7.95C6.97 7.64 6.99 7.32 6.99 7C6.99 5.2 6.31 3.41 4.94 2.05C4.72 1.82 4.48 1.61 4.22 1.42C3.05 0.53 1.58 0 0 0L0 0L0 1.42C1.42 1.42 2.85 1.96 3.94 3.05C4.95 4.06 5.57 5.46 5.57 7C5.57 8.42 5.03 9.85 3.94 10.94L4.94 11.94Z" fill="url(#paint_angular_8_2569_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>

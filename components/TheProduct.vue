@@ -26,7 +26,7 @@ export default {
         slidesPerGroup: 1,
         centeredSlides: false,
         spaceBetween: 35,
-        pagination: false,
+        pagination: true,
         navigation: true,
         modules: "modules",
         mousewheel: false,
@@ -65,10 +65,19 @@ export default {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 100px;
+      @media(max-width: 1500px) {
+        gap: 40px;
+      }
+      @media(max-width: 1400px) {
+        grid-template-columns: 1fr;
+      }
     }
     &__slider {
       padding: 60px;
       background-color: var(--grey);
+      @media(max-width: 1500px) {
+        padding: 30px;
+      }
     }
   }
   .slider-product {
@@ -81,28 +90,88 @@ export default {
       }
       &__block {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 280px 1fr;
         align-items: center;
         gap: 30px;
+        @media(max-width: 767px) {
+          grid-template-columns: 1fr;
+        }
       }
       &__title {
         font-size: 26px;
         font-weight: 700;
         margin-bottom: 20px;
+        @media(max-width: 767px) {
+          text-align: center;
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
       }
       &__text {
         font-size: 16px;
         font-weight: 400;
+        @media(max-width: 767px) {
+          text-align: center;
+          font-size: 14px;
+        }
+      }
+      &__img {
+        height: 280px;
+        @media(max-width: 767px) {
+          width: 220px;
+          height: 220px;
+          margin: 0 auto;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
       }
     }
     .swiper-button-prev, .swiper-button-next {
       left: auto;
       top: auto;
-      right: 0;
+      right: 20px;
       bottom: 20px;
+      @media(max-width: 767px) {
+        display: none;
+      }
     }
     .swiper-button-prev {
-      right: 100px;
+      right: 105px;
+    }
+    .swiper-pagination-bullet {
+      width: 14px;
+      height: 14px;
+      background-color: #fff;
+      opacity: 1;
+      overflow: hidden;
+      
+    }
+    .swiper-pagination-bullet-active {
+      position: relative;
+      &:after {
+        content: '';
+        background-image: url('@/assets/img/bullet.svg');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        width: 1em;
+        height: 1em;
+        display: block;
+        position: absolute;
+        top: -2px;
+        right: -4px;
+      }
+    }
+    .swiper-pagination {
+      text-align: left;
+      padding-left: 40px;
+      @media(max-width: 767px) {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+      }
     }
   }
 </style>
